@@ -17,7 +17,7 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
-const workerPoolSize = 1000
+const workerPoolSize = 10
 const batchSize = 1000
 
 func main() {
