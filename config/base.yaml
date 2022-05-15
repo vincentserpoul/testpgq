@@ -1,0 +1,17 @@
+application:
+  port: 3000
+  prettylog: false
+  url:
+    host: "localhost:3000"
+    schemes: ["https"]
+database:
+    host: "127.0.0.1"
+    port: 5432
+    username: "pgq_app"
+    password: "yourpass"
+    databasename: "pgq"
+    sslmode: "require"
+observability:
+  collector:
+    host: "127.0.0.1"
+    port: 4317
